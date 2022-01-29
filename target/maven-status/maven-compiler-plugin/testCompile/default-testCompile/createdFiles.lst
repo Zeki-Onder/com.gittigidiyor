@@ -1,0 +1,6 @@
+utilities\Driver.class
+pages\GittigidiyorPage.class
+tests\Gittigidiyor.class
+utilities\ConfigReader.class
+utilities\Log4j.class
+utilities\ReusableMethods.class

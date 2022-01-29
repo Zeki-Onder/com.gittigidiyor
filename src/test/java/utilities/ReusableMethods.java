@@ -1,20 +1,15 @@
 package utilities;
 
-import io.restassured.http.ContentType;
-import io.restassured.mapper.ObjectMapperType;
-import io.restassured.response.Response;
+
 import org.openqa.selenium.WebElement;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import static io.restassured.RestAssured.given;
 
 public class ReusableMethods {
 
-    static Response response;
-    private static String token;
 
     public static void writeToTxt(String fileName, WebElement element) {
         try {
@@ -42,7 +37,6 @@ public class ReusableMethods {
         }
         return list;
     }
-
 
 }
 
