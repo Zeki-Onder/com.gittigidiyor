@@ -10,7 +10,6 @@ import java.util.Scanner;
 
 public class ReusableMethods {
 
-
     public static void writeToTxt(String fileName, WebElement element) {
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));

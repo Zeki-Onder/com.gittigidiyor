@@ -79,11 +79,4 @@ public class GittigidiyorPage {
 
     @FindBy(xpath = "//*[@class='gg-d-19 gg-w-21 gg-t-19 gg-m-18']")
     public WebElement basketIsEmpty;
-
-
-
-
-
-
-
 }

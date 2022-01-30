@@ -32,7 +32,6 @@ public class Gittigidiyor {
         gittigidiyorPage.searchButton.click();
         log4j.info("searched by typing 'bilgisayar' in the text box");
 
-
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("window.scrollBy(0,4250)");
         gittigidiyorPage.nextPageButton.click();
@@ -72,10 +71,8 @@ public class Gittigidiyor {
                 .contains("Sepetinizde ürün bulunmamaktadır."));
         log4j.info("Verified that the cart is empty");
 
-
         Driver.getDriver().quit();
         log4j.info("Test ending...");
 
     }
-
 }
